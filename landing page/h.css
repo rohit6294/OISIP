@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bar{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    
+    
+    
+}
+ .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.bar ul{
+    float: right;
+}
+.bar li{
+    display: inline-block;
+    list-style: none;
+}
+.bar li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.bar li a:hover{
+    color: rgb(201, 61, 61);
+    transition: all 0.4s ease 0s;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/pics/pxfuel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.content{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.content h1{
+    font-size: 95px;
+    color: rgb(14, 83, 91);
+    
+    font-weight: 400;
+
+}
+.content p{
+    font-size: 20px;
+    color: white;
+    
+    
+}
+.content a{
+text-decoration: none;
+margin-top: 20px;
+font-size: 25px;
+display: inline-block;
+letter-spacing: 2px;
+padding: 12px 2px;
+background-color: rgb(12, 99, 214);
+border-radius: 5px;
+color: white;
+}
+.content a:hover{
+    color: rebeccapurple;
+}
+.sec1
+{
+    padding: 131px 0px;
+    background-color: rgb(109, 121, 123);
+    text-align: center;
+    
+}
+.cus
+{
+    display: inline-block;
+    width: 33%;
+    padding: 0px 20px;
+    margin-top: 70px;
+}
+.cus h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.cus p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+}
+.cus img{
+    border-radius: 60%;
+   
+
+}
+
+.about-us{
+  height: 60vh;
+  width: 100%;
+  padding: 50px 0;
+  background: #ddd;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.menu3
+{
+    padding-top:25px;
+    line-height:30px;
+}
+.menu3 li
+{
+    color: white;
+}
+.menu3 ul li:hover
+{
+    color:#00ddff;
+    cursor:pointer;
+}
+.search
+{
+    color:white;
+    padding-top:25px;
+}
+.search1
+{
+    font-family: 'Times New Roman';
+    width:200px;
+    height:40px;
+    background:transparent;
+    border:1px solid #41b3eb;
+    margin-top:13px;
+    color:whitesmoke;
+    border-right:none;
+    font-size:16px;
+    float:left;
+    padding:10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+}
+.btn
+{
+    width:100px;
+    height:40px;
+    background:#0ed2f0;
+    border:2px solid #17cae9;
+    margin-top:13px;
+    color:#fff;
+    font-size:15px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+}
+.btn:focus
+{
+    outline:none;
+}
+.search1:focus
+{
+    outline:none;
+}
+.footer
+{
+    background-color: gray;
+    display: flex;
+    position:relative;
+    height:200px;
+}
+.icons a
+{
+    text-decoration: none;
+    color:black;
+}
+.icons ion-icon
+{
+    color:black;
+    font-size: 30px;
+    padding-left:14px;
+    padding-top:25px;
+    transition:0.3s ease;
+    display:inline-block;
+}
+.icons ion-icon:hover
+{
+    color:#4ac7c5;
+}
+.connect
+{
+    color:black;
+    font-size: 20px;
+    padding-left:14px;
+    padding-top:50px;
+}
+.signupSection {
+    
+    background-repeat: no-repeat;
+    
+    
+    
+    
+    text-align: center;
+    
+    color: rgb(228, 222, 222);
+    
+  }
+.icon {
+    font-size: 8em;
+    padding: 20px 0;
+    color: rgba(10, 180, 180, 1);
+  }
+.signupForm {
+  
+  padding: 30px 0;
+  background: rgba(20, 40, 40, .8);
+  
+  
+}
+.signupForm h2 {
+    font-weight: 300;
+  }
+
+.inputFields {
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  
+  
+  background: rgba(20, 20, 20, .2);
+  color: white;
+  outline: none;
+}
+
+.noBullet {
+  list-style-type: none;
+  padding: 0;
+}
+
+#join-btn {
+  border: 1px solid rgba(10, 180, 180, 1);
+  background: rgba(20, 20, 20, .6);
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 50px;
+  
+  
+}
+
+
+
+
+
+
